@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <input onblur="blur1()" onfocus="focus1()" onkeyup="passwordStrength()" id="i1" type="password" placeholder="Enter your password" />
+    <span id = "strength">your pwd strength</span>
+    </form>
+    
+    <script>
+
+        function focus1()
+        {
+            console.log("Focused...");
+            document.getElementById("i1").style.background="red";
+        }
+
+        function blur1()
+        {
+            console.log("Blured...");
+            document.getElementById("i1").style.background="green";
+        }
+
+        function passwordStrength()
+        {
+            var pwd = document.getElementById("i1").value;
+            if(pwd.length == 0)
+            {
+                document.getElementById("strength").innerHTML = "No Strength";
+            }
+            else if(pwd.length < 5)
+            {
+                document.getElementById("strength").innerHTML = "Weak Strength";
+            }
+            else
+            {
+                document.getElementById("strength").innerHTML = "Good Strength";
+            }
+        }
+        
+    </script>
+</body>
+</html>
