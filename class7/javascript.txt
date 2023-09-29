@@ -36,3 +36,20 @@ every fxn will return the undefined so that we can
 write two types of fxns:
 1. with
 2. without arguments
+
+
+javascript conditional statements
+1. Simple if
+2. if else
+3. else if
+4. if ladder
+5. nested if
+6. switch
+
+javascript looping statements
+1. for loops
+2. for of loops
+3. for in loops
+4. forEach loops
+5. while loops
+6. do while loops

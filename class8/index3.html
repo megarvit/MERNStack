@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("unary operators");
+        console.log("Incremental operators");
+        let a = 10;
+        console.log(a++); //10 then it increments in memory
+        console.log(a); //11
+        console.log(++a); //12
+        console.log(a);
+        let b=5;
+        console.log(a/b); //2.4 not int
+        b=0;
+        console.log(a/b);
+        let h=20;
+        let g=10;
+        console.log(g==h);
+        g="20";
+        console.log(g==h);
+        console.log(g===h); //value and type are same or not
+
+        console.log(g|a);
+        let m= 7;
+        let n= 5;
+        console.log(m|n);
+
+        console.log("shift operators");
+        let p =10;
+        let q =3;
+
+        console.log(p<<q);
+        /*left shift operator formula: a*2^b
+        10*(2^3) = 80 */
+
+
+        console.log(p>>q);
+        /*right shift operator formula: a/2^b
+        10/(2^3) = 1 */
+
+        console.log((30<40)?"hello":"bye");
+
+
+    </script>
+</body>
+</html>
