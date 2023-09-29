@@ -1,0 +1,38 @@
+programming lang makes static webpages dynamic
+early known as livescript 
+js version are called ES : ECMAScript
+latest is ES9. mostly used is ES6
+js is an interpreter software and works line by line
+js is a losely coupled lang
+
+ways to display o/p
+
+1.alert("message"); //dialog box
+2.document.write("message") //new page
+3.document.getElementById("IdName").innerHTML = "message"; //same page
+4.console.log("message"); // console window
+
+js variables
+1. var -global
+2. let -local
+3. const -constant
+
+js datatypes
+1. string '', " ", ``
+2. numbers
+3. boolean
+4. null
+5. undefined
+
+js functions
+
+syntax:
+function functionName(arguments)
+{
+
+}
+
+every fxn will return the undefined so that we can 
+write two types of fxns:
+1. with
+2. without arguments
