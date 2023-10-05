@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        //array literals giving values directly
+        let arr1 = [10,20,30,40];
+
+        for(let x of arr1){
+            console.log(x);
+        }
+
+        //new keyword
+        let arr2 = new Array();
+        arr2[0] = 50;
+        arr2[1] = 60;
+        arr2[2] = 70;
+        arr2[3] = 80;
+
+        // for(let x of arr2){
+        //     console.log(x);
+        // }
+
+        const arr3 = new Array(10,20,30,40);
+
+        arr1 = arr1.concat(arr2);
+        console.log(arr1);
+
+        // function f2(a){
+        //     return a>50;
+        // }
+        // console.log(arr1.every(f2));
+
+        console.log(arr1.every(val=>val>9)); //true
+
+        console.log(arr1.filter(val=>val>40)); //50 to 80
+
+        console.log(arr1.find(val=>val>40)); //50
+
+        console.log(arr1.findIndex(val=>val>50));
+
+        console.log(arr1.indexOf(30));
+
+        console.log(arr1.lastIndexOf(40));
+
+        console.log(arr1.some(val=>val>100));
+
+        arr1.map((val)=>{
+            console.log(val);
+        });
+
+        
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

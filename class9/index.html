@@ -34,6 +34,31 @@
         console.log(obj2.getMonth());
         console.log(obj2.getSeconds());
 
+        //normal function
+        function abc(a){
+            console.log(a);
+        }
+
+        //storing fxn as a variable
+        const def = function(a) {
+            console.log(a);
+        } 
+
+        //arrow fxn
+        const lmn = (a) => {console.log(a);}
+
+        abc(10);
+        def(20);
+        lmn(30);
+
+        function f1(f){
+            f();
+            console.log("Hello");
+        }
+        function f2(){
+            console.log("Hi");
+        }
+        f1(f2);
 
 
     </script>
