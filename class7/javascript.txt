@@ -53,3 +53,4 @@ javascript looping statements
 4. forEach loops
 5. while loops
 6. do while loops
+ 
