@@ -9,10 +9,24 @@
     <h1>Location Objects</h1> 
 
     <button onclick="f1()">Assign</button>
-    <button onclick="f1()">Replace</button>
-    <button onclick="f1()">Refresh</button>
+    <button onclick="f2()">Replace</button>
+    <button onclick="f3()">Refresh</button>
 
     <script>
+
+        function f1(){
+            location.assign("https://www.ethnus.com");
+        }
+
+        function f2(){
+            location.replace("https://www.ethnus.com");
+        }
+
+        function f3(){
+            location.reload();
+        }
+        
+
         console.log("Navigator Objects:");
 
         console.log(navigator.appName);
@@ -29,9 +43,10 @@
         console.log(screen.height);
         console.log(screen.availWidth);
         console.log(screen.width);
-        console.log(screen.colorDepth);
-        console.log(screen.pixelDepth);
+        console.log(screen.colorDepth);   //24  8 for red 8 for green 8 for blue -> 2^8 + 2^8 + 2^8 => 16 million combinations
+        console.log(screen.pixelDepth);   //24
 
+        
 
     </script>
 
