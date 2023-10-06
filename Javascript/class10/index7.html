@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //async coding fxn will not wait for others 
+        setInterval(() => {
+            console.log("each 1 sec");
+        }, 1000);
+
+        setInterval(() => {
+            console.log("each 2 sec");
+        }, 2000);
+
+        setInterval(() => {
+            console.log("each 3 sec");
+        }, 3000);
+
+        setInterval(() => {
+            console.log("Hello");
+        }, 5000);
+
+        //sync coding hi2 will print after hi1 is printed
+        console.log("hi1");
+        console.log("hi2");
+        console.log("hi3");
+        console.log("hi4");
+        console.log("hi5");
+        console.log("hi6");
+        console.log("hi7");
+        console.log("hi8");
+
+
+    </script>
+</body>
+</html>

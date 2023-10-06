@@ -70,3 +70,32 @@ Navigator objects: gives information about the server end
   3. platform
   4. cookiesEnabled
   5. language
+
+javascript classes:
+syntax:
+
+    class className
+    {
+      varName = value;
+      methodName()
+      {
+
+      }
+    }
+
+    const obj = new className();
+
+javascript promises:
+
+Async
+callback fxn
+    callback hell -> control over program will not be given to you, readabilty
+
+
+promises having pre stages:
+
+1. pending 
+2. fulfilled - resolved - .then when success
+3. rejected - rejected - .catch when failure
+
+fetch api -> return a promise to you 
