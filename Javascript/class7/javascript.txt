@@ -54,3 +54,19 @@ javascript looping statements
 5. while loops
 6. do while loops
  
+
+BOM -> Browser object model
+                    window
+                      |
+    history navigator screen location document
+
+History objects: property and fxn
+    1. back()
+    2. forward()
+
+Navigator objects: gives information about the server end
+  1. appName
+  2. appVersion
+  3. platform
+  4. cookiesEnabled
+  5. language
