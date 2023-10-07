@@ -1,0 +1,9 @@
+reactJS
+1. js library which having the reusable UI components
+2. open source to develop the webpages. developed by facebook
+3. mvc architecture react stands for view part alone
+4. virtual DOM which boosts up the performance of react application
+5. it supports one way binding
+6. it supports jsx format
+7. it is a single page application
+
