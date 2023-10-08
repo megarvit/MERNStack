@@ -8,3 +8,19 @@ reactJS
 6. it supports jsx format
 7. it is a single page application
 
+react components are the heart of react application
+
+1. function components:
+
+export a components
+ a. default export only one per file
+ b. namespace export
+
+importing a component in app.js
+ a. default component
+    import anyName from filePath
+ b. namespace export
+    import {sameName} from filePath
+
+
+2. class components:
