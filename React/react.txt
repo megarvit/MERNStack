@@ -1,4 +1,5 @@
 reactJS
+
 1. js library which having the reusable UI components
 2. open source to develop the webpages. developed by facebook
 3. mvc architecture react stands for view part alone
