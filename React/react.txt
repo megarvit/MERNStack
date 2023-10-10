@@ -24,3 +24,20 @@ importing a component in app.js
 
 
 2. class components:
+
+import {component} from 'react';
+class ClassName extends components
+{
+   render()
+   {
+      return(
+         <div>
+            html content goes here...
+         </div>
+      )
+   }
+}
+
+State and Props
+
+props -> used to transfer data from parent compo to child compo
