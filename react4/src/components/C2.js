@@ -1,4 +1,5 @@
 import { Component } from "react";
+import C3 from "./C3";
 
 class C2 extends Component
 {
@@ -6,6 +7,7 @@ class C2 extends Component
     {
         super();
         console.log("I am constructor");
+        this.state = {brand:"nike", toggle: true}
     }
 
     static getDerivedStateFromProps()
@@ -19,6 +21,22 @@ class C2 extends Component
         console.log("I a componentDidMount method");
     }
 
+    shouldComponentUpdate()
+    {
+        console.log("I am shouldComponentUpdate");
+        return true;
+    }
+
+    getSnapshotBeforeUpdate()
+    {
+        console.log("I am getSnapshotBeforeUpdate");
+        return null;
+    }
+
+    componentDidUpdate()
+    {
+        console.log("I am componentDidUpdate");
+    }
 
     render()
     {
@@ -26,8 +44,14 @@ class C2 extends Component
         return(
             <div>
                 <h1>Lifecycle Methods</h1>
+                <p>{this.state.brand}</p>
+                <button onClick={() => {this.setState({brand:"adidas"})}}>click</button>
+                {
+                    (this.state.toggle)?<C3 />:null
+                }
+                <button onClick={()=>{this.setState({toggle: false})}}>Unmount</button>
             </div>
-        )
+        );
     }
 }
 export default C2;
