@@ -40,4 +40,35 @@ class ClassName extends components
 
 State and Props
 
-props -> used to transfer data from parent compo to child compo
+props -> 
+immutable
+used to transfer data from parent compo to child compo
+
+state->
+mutable(can be changed)
+internal storgae of a component
+
+to change the state or you want to change the input field ull use setState in handle change or click
+
+one way binding-> view to component and component to view.
+
+lifecycle methods of class component:
+                                                            (mount-update on site)
+1. initial phase: define the value of state amd props
+
+2. mounting phase: 
+      a. constructor() -> used to construct a class component
+      b. getDerivedStateFromProps() -> used to get the value of state and props
+      c. render() -> used to render the webpages
+      d. componentDidMount() -> used to work with side effect[i.e: http request]
+   
+3. updating phase:
+      a. getDerivedStateFromProps() -> used to get the value of state and props
+      b. shouldComponentUpdate() -> used to declare whether component should update or not
+      c. render() -> used to render the updated webpages
+      d. getSnapshotBeforeUpdate() -> used to store the previous state and props value
+      e. componentDidUpdate -> used to work with side effect
+
+4. Unmounting phase:
+      a. componentWillUnmount() -> when the component is being removed
+
