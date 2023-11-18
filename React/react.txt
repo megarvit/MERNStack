@@ -72,3 +72,17 @@ lifecycle methods of class component:
 4. Unmounting phase:
       a. componentWillUnmount() -> when the component is being removed
 
+
+
+React Styling:
+   1. inline -> {{}}
+   2. internal -> {object}
+   3. external -> import "filepath";
+
+
+install a third party module using npm command: npm install applicationName@version
+
+npm i bootstrap@5
+
+npm i react-router-dom
+
