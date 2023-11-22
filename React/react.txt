@@ -93,3 +93,10 @@ HTTP request [CRUD Operations]
 2. get-read
 3. put-update
 4. delete-delete
+
+Axios.post(url,{newObj})
+Axios.get(url)
+Axios.put(url+id,{updObj})
+Axios.delete(url+id)
+
+axios will return back a promise
