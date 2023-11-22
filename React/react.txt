@@ -86,3 +86,10 @@ npm i bootstrap@5
 
 npm i react-router-dom
 
+npm install axios
+
+HTTP request [CRUD Operations]
+1. post-create
+2. get-read
+3. put-update
+4. delete-delete
